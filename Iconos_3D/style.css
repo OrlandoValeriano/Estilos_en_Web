@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f1f1f1;
+}
+
+li{
+    list-style: none;
+    font-size: 1.8rem;
+    color: #bbb;
+}
+
+.container-icons{
+    width: 100%;
+    height: 100vh;
+}
+
+.container-icons .list-icons{
+    width: 100%;
+    height: 100%;
+}
+
+.container-icons .list-icons ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.container-icons .list-icons ul li{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow:  4px 6px 5px rgba(0, 0,0,.1), -4px -6px 5px #fff;
+    transition: .4s ease-in-out;
+}
+
+.container-icons .list-icons ul li.shadow-inset:nth-child(1){
+    color: #3b5998;
+}
+
+.container-icons .list-icons ul li.shadow-inset:nth-child(2){
+    color: #00acee;
+}
+
+.container-icons .list-icons ul li.shadow-inset:nth-child(3){
+    color: #dd2a7b;
+}
+
+.container-icons .list-icons ul li.shadow-inset:nth-child(4){
+    color: #0e76a8;
+}
+
+.container-icons .list-icons ul li.shadow-inset:nth-child(5){
+    color: #171515;
+}
+
+.container-icons .list-icons ul li.shadow-inset{
+    box-shadow: inset -4px -6px 5px #fff, inset 4px 6px 5px rgba(0, 0,0,.1);
+    transition: .5s ease-in-out;
+}
+
+
+
